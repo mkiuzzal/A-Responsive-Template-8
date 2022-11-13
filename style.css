@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scrollbar-base-color: aqua;
+}
+
+.ForHer{
+
+    height:500px;
+    width:100%;
+    background-size: cover;
+   background-image:url(Female-product/Female.jpg);
+}
+
+.ForHim{
+   
+    height:500px;
+    width:100%;
+    background-size: cover;
+   background-image:url(Male-Product/Male.jpg);
+}
+.forChildren{
+    height:500px;
+    width:100%;
+    background-size: cover;
+   background-image:url(Baby-Product/Children.jpg);
+}
+
+.manu-1 li{
+    padding: 5px;
+    list-style:none;
+    float:left;
+}
+
+/* .Body_part-4{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image:url(Image/wave1.svg);
+} */
+#loader{
+    position: fixed;
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    background:#FFFFFF
+    url(Image/Preloader.gif)
+    no-repeat
+    center;
+    z-index:99999;
+}
